@@ -33,3 +33,9 @@ npm install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
 ```
 npx hardhat compile
 ```
+
+6. Deploy the Contract
+
+```
+npx hardhat run scripts/deploy.js --network goerli
+```
