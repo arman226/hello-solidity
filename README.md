@@ -21,3 +21,15 @@ npx hardhat
 ```
 npm install dotenv --save
 ```
+
+4. Install Ethers.js
+
+```
+npm install --save-dev @nomiclabs/hardhat-ethers "ethers@^5.0.0"
+```
+
+5. Compile the Smart Contract
+
+```
+npx hardhat compile
+```
